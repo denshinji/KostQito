@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">KOSTQITO</string>
+    <string name="kost_name">Nama Kost</string>
+    <string name="address">Lokasi</string>
+    <string name="price">Harga</string>
+    <string name="description">deskripsi</string>
+    <string name="view">Lihat</string>
+    <string name="dummy_photos">6 Photo</string>
+    <string name="Harga">7 jt / Tahun</string>
+    <string name="spec">Fasilitas</string>
+    <string name="disp">Kamar Mandi</string>
+    <string name="content_specs_displays1">Kamar Mandi Didalam</string>
+    <string name="size">Ukuran</string>
+    <string name="content_specs_size1">3 X 4</string>
+    <string name="seller">Admin</string>
+    <string name="penjual">Deni Al Farizi</string>
+    <string name="disp_1">Listrik</string>
+    <string name="content_specs_displays1_1">Token</string>
+    <string name="harga">harga</string>
+    <string name="open" />
+    <string name="close" />
+</resources>

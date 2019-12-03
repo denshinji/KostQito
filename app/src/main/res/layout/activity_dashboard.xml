@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Dashboard"
+    android:background="@color/colordashboard"
+    android:id="@+id/dash"
+    android:layout_above="@+id/menu_but">
+
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_above="@+id/menu_but">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_con">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Dashboard"
+    android:background="@color/colordashboard"
+    android:layout_above="@+id/menu_but">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:id="@+id/iklan"
+                    android:background="@color/colorPrimary"/>
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/ic_notifications_black_24dp"/>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/search_dash"
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/search"
+                    />
+
+                    <EditText
+                        android:id="@+id/search_edit"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Cari nama kost"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="60dp"
+                        android:textColor="@android:color/background_dark"/>
+
+
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="80dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="410dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/banner"/>
+                    <ImageView
+                        android:layout_width="410dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/banner2"/>
+                    <ImageView
+                        android:layout_width="410dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/banner3"/>
+
+
+</LinearLayout>
+                </HorizontalScrollView>
+            </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:background="@android:color/white">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HI,"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/hi"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:id="@+id/get_name_dash"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/em_dashboard"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hi"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="-225dp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+    </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@android:color/white">
+    <ImageView
+        android:id="@+id/list_kost"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/list_but"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"
+        />
+
+    <ImageView
+        android:id="@+id/fav"
+        android:layout_width="65dp"
+        android:layout_height="70dp"
+        android:background="@drawable/fav_but"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"
+        />
+
+    <ImageView
+        android:id="@+id/near"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:background="@drawable/nearby_but"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"
+        />
+            </LinearLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+       <ImageView
+                android:layout_width="380dp"
+                android:layout_gravity="center"
+                android:layout_height="160dp"
+                android:background="@drawable/promo"
+                android:layout_marginTop="10dp"/>
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_gravity="center"
+                    android:layout_height="80dp"
+                    android:background="@drawable/banner3"
+                    android:layout_marginTop="20dp"
+                    />
+
+            </FrameLayout>
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_gravity="center"
+                android:layout_height="160dp"
+                android:background="@drawable/promo"
+                android:layout_marginTop="30dp"/>
+
+
+    </LinearLayout>
+
+    </RelativeLayout>
+
+    </FrameLayout>
+        </ScrollView>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/button_navigation"
+        android:id="@+id/menu_but"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"/>
+
+</RelativeLayout>

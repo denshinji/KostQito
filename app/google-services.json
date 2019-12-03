@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "283564831338",
+    "firebase_url": "https://frikos.firebaseio.com",
+    "project_id": "frikos",
+    "storage_bucket": "frikos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283564831338:android:7b52a63bdc45b720751013",
+        "android_client_info": {
+          "package_name": "com.example.frikos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "283564831338-ult12e7scpb5jn1vssfm8d6qujl0hs4s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkBnnWkCBenBUnZBqhp8-g4aI6EIDQr7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "283564831338-ult12e7scpb5jn1vssfm8d6qujl0hs4s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

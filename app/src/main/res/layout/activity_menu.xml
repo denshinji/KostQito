@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:background="@color/colordashboard">
+
+    <FrameLayout
+        android:id="@+id/frame_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="-50dp"
+
+                android:background="@drawable/bc_profile"/>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="150dp"
+                android:id="@+id/photo_account"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/photo_2"/>
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/nama_profile"
+                android:textColor="@android:color/white"
+                android:layout_below="@id/photo_account"
+                android:textSize="30dp"
+                android:text="Name"
+                android:textStyle="bold"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/email_profile"
+                android:textColor="@android:color/white"
+                android:layout_below="@id/nama_profile"
+                android:textSize="20dp"
+                android:text="Email"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_centerHorizontal="true"
+                android:layout_height="550dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/bc_menu"
+                android:layout_below="@id/email_profile"/>
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>
